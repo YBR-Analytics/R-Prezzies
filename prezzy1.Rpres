@@ -1,0 +1,37 @@
+Why do we count our age in years?
+========================================================
+author: Jim Barker
+date: `r Sys.Date()`
+
+Why not count our age in days?
+========================================================
+
+- Counting our age in years is customary but also arbitrary.
+- Knowing how many days we have lived gives us just as much information.
+- We can better estimate how much work we do in a day than in a year.
+- Counting in days may give us a better feel for the passage of time.
+- We could celebrate our birth-hour every day!
+
+YBR Analytics is Now Offering AgeDay Version 1.0
+========================================================
+
+- A tool to measure your current age in days
+- The tool is easy to use and open source with no restrictions
+- Feel free to copy from Github : https://github.com/YBR-Analytics/JHU-Developing-Data-Products 
+
+Mean Life Span for U.S. Men and Women in Days
+========================================================
+
+```{r echo=FALSE}
+fls <- round(365*81.4,digits=0)
+mls <- round(365*76.4,digits=0)
+cat("Women : ",fls," days\n")
+cat("Men : ",mls," days\n")
+```
+
+Future Enhancements
+========================================================
+
+- Version 2.0 will allow for age measurement in seconds and milliseconds
+- Default colors will be changed
+- Depending on demand, AgeDay may offer widgets out the wazoo
